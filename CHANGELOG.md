@@ -1,5 +1,38 @@
 # Changelog
 
+## v3.7.0 - 2026-03-17
+
+### What's Changed
+
+* Skip calling fake() when required parameters exist (Socialite compatibility) by @Jaspur in https://github.com/barryvdh/laravel-ide-helper/pull/1746
+* Make Soft Deleted Relationships Nullable by @evan-burrell in https://github.com/barryvdh/laravel-ide-helper/pull/1749
+* Support all DNF types from PHP RFC by @gurmanolog in https://github.com/barryvdh/laravel-ide-helper/pull/1751
+* Replace psalm with larastan by @barryvdh in https://github.com/barryvdh/laravel-ide-helper/pull/1755
+* perf: reduce redundant lookups and file I/O in generation hot paths by @pataar in https://github.com/barryvdh/laravel-ide-helper/pull/1757
+* fix: wrap bare intersection types in parentheses when adding nullable by @pataar in https://github.com/barryvdh/laravel-ide-helper/pull/1756
+* feat(ModelsCommand): add configuration option to disable model query methods by @pataar in https://github.com/barryvdh/laravel-ide-helper/pull/1692
+* ci: add PHP 8.5 to integration test matrix by @pataar in https://github.com/barryvdh/laravel-ide-helper/pull/1760
+* chore: update test snapshots after merge order issue by @pataar in https://github.com/barryvdh/laravel-ide-helper/pull/1762
+* Laravel 13.x Compatibility by @laravel-shift in https://github.com/barryvdh/laravel-ide-helper/pull/1763
+* fix: Correct indentation in camel case config comment block by @isaackaara in https://github.com/barryvdh/laravel-ide-helper/pull/1767
+* fix: Place PHPDoc before class attributes when writing to models by @isaackaara in https://github.com/barryvdh/laravel-ide-helper/pull/1765
+* fix: Don't extend root's parent class for facade stubs in helper file by @isaackaara in https://github.com/barryvdh/laravel-ide-helper/pull/1766
+* Fix PHPDoc placement before PHP 8 class attributes and add regression tests by @Copilot in https://github.com/barryvdh/laravel-ide-helper/pull/1769
+* fix: Skip autoload exception when class existence is being checked by @isaackaara in https://github.com/barryvdh/laravel-ide-helper/pull/1764
+* Remove closure in attribute test by @barryvdh in https://github.com/barryvdh/laravel-ide-helper/pull/1772
+* Bump branch alias to 3.6 by @jnoordsij in https://github.com/barryvdh/laravel-ide-helper/pull/1774
+
+### New Contributors
+
+* @Jaspur made their first contribution in https://github.com/barryvdh/laravel-ide-helper/pull/1746
+* @evan-burrell made their first contribution in https://github.com/barryvdh/laravel-ide-helper/pull/1749
+* @gurmanolog made their first contribution in https://github.com/barryvdh/laravel-ide-helper/pull/1751
+* @laravel-shift made their first contribution in https://github.com/barryvdh/laravel-ide-helper/pull/1763
+* @isaackaara made their first contribution in https://github.com/barryvdh/laravel-ide-helper/pull/1767
+* @Copilot made their first contribution in https://github.com/barryvdh/laravel-ide-helper/pull/1769
+
+**Full Changelog**: https://github.com/barryvdh/laravel-ide-helper/compare/v3.6.1...v3.7.0
+
 ## v3.6.1 - 2025-12-10
 
 ### What's Changed
